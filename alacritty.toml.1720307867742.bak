@@ -1,0 +1,51 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Epiphany.toml"
+]
+
+[window]
+decorations = "None"
+opacity = 0.98
+
+  [window.padding]
+  x = 3
+  y = 3
+
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono Nerd Font"
+style = "Italic"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+action = "ScrollHalfPageDown"
+
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+action = "ScrollHalfPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+action = "None"
+
+[[keyboard.bindings]]
+key = "PageUp"
+action = "None"
+
+[[keyboard.bindings]]
+key = "M"
+mods = "Super"
+action = "ToggleFullscreen"
+
+[[keyboard.bindings]]
+key = "Period"
+mods = "Control"
+chars = "g_a"

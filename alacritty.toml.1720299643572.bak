@@ -1,0 +1,19 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/DOOMICIDE darkocean.toml"
+]
+[window]
+decorations = "None"
+opacity = 0.98
+padding = { x = 3, y = 3 }
+[font]
+normal = { family = "SFMono", style = "Regular" }
+bold = { family = "SFMono", style = "Bold" }
+italic = { family = "SFMono", style = "Italic" }
+[keyboard]
+bindings = [{ key = "PageDown", mods = "Shift", action = "ScrollHalfPageDown" },
+	    { key = "PageUp", mods = "Shift", action = "ScrollHalfPageUp" },
+	    { key = "PageDown", action = "None" },
+	    { key = "PageUp", action = "None" },
+	    { key = "M", mods = "Super", action = "ToggleFullscreen" },
+	    { key = "Period", mods = "Control", chars = "$i" }] 
+

@@ -1,0 +1,51 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Embers.dark.toml"
+]
+
+[window]
+decorations = "None"
+opacity = 0.98
+
+  [window.padding]
+  x = 3
+  y = 3
+
+[font.normal]
+family = "SFMono"
+style = "Regular"
+
+[font.bold]
+family = "SFMono"
+style = "Bold"
+
+[font.italic]
+family = "SFMono"
+style = "Italic"
+
+[[keyboard.bindings]]
+key = "PageDown"
+mods = "Shift"
+action = "ScrollHalfPageDown"
+
+[[keyboard.bindings]]
+key = "PageUp"
+mods = "Shift"
+action = "ScrollHalfPageUp"
+
+[[keyboard.bindings]]
+key = "PageDown"
+action = "None"
+
+[[keyboard.bindings]]
+key = "PageUp"
+action = "None"
+
+[[keyboard.bindings]]
+key = "M"
+mods = "Super"
+action = "ToggleFullscreen"
+
+[[keyboard.bindings]]
+key = "Period"
+mods = "Control"
+chars = "$i"
